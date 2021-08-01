@@ -1,0 +1,35 @@
+html{
+	column-fill: red;
+	margin-bottom:40px;
+	margin:10px;
+	shape-margin: circle; 
+}
+body{
+	margin:100;
+	background-color:rgb(13,53,120);
+}
+p{
+	margin: 45;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: Nunito;
+}
+h1{
+	color: white;
+	text-align: left;
+	width:auto;
+	height: 20px;
+
+}
+h2{
+	color: white;
+	text-align: left;
+	height: 400px;
+}
+h4{
+	margin: 40;
+	color: white;
+	text-align: right;
+	width: auto;
+	height: 400px
+}

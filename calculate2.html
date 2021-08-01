@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./calculate.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="./images/icons8_calculator_64px.png" width="30" height="30" alt="">
+    </a>
+    <h4>simple calculator</h4>
+  </nav><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form name="cal" >
+                    <img src="./images/calculatorbrand.png" alt="">
+                    <input type="text" name="one" id="txt1" placeholder="First_Number" required><br>
+                    <input type="text" name="two" id="txt2" placeholder="Second_Number" required><br>
+                    <input type="text" name="ans" id="ans1" placeholder="Answer" disabled><br>
+                    <input type="button" value="calculate" onclick="calculation()">
+                    <input type="submit" value="clr" id="clr">
+
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <script src="./calculate.js"></script>
+</body>
+</html>

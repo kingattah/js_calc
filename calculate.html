@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="calc">
+    <input type="text" name="first">
+    <input type="text" name="second">
+    <input type="text" name="Answer">
+    <input type="button" value="add" onclick="sumValue()">
+    <input type="button" value="subtract" onclick="subValue()">
+    <input type="button" value="divide" onclick="divValue()">
+    <input type="button" value="multiply" onclick="mutValue()">
+</form>
+    <script>
+     function sumValue(){
+    var num1,num2,answe;
+    num1=Number(document.calc.first.value);
+    num2=Number(document.calc.second.value);
+    answe=num1+num2;
+    document.calc.Answer.value=answe;
+}
+function subValue(){
+    var num1,num2,answe;
+    num1=Number(document.calc.first.value);
+    num2=Number(document.calc.second.value);
+    answe=num1-num2;
+    document.calc.Answer.value=answe;
+}
+function divValue(){
+    var num1,num2,answe;
+    num1=Number(document.calc.first.value);
+    num2=Number(document.calc.second.value);
+    answe=num1/num2;
+    document.calc.Answer.value=answe;
+}
+function mutValue(){
+    var num1,num2,answe;
+    num1=Number(document.calc.first.value);
+    num2=Number(document.calc.second.value);
+    answe=num1*num2;
+    document.calc.Answer.value=answe;
+}
+    </script>
+</body>
+</html>
